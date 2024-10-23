@@ -5,7 +5,7 @@ body{
 .post {
     margin:auto;
     margin-top: 14%;
-    margin-bottom: 2%;
+    margin-bottom: 3%;
     background-color: white;
     width: 410px;
     height: 600px;
@@ -88,7 +88,7 @@ span.shareIcon {
 
 .postBody{
     width: 100%;
-    padding: 12px;
+    padding: 3px 3px 10px 15px;
     margin:10px 0px 10px 0px;
     font-size: 0.9em;
 }
