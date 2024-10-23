@@ -1,0 +1,94 @@
+body{
+    background-color: black;
+}
+
+.post {
+    margin:auto;
+    margin-top: 14%;
+    margin-bottom: 2%;
+    background-color: white;
+    width: 410px;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: stretch;
+    font-family: "Roboto";
+}
+
+
+.postHeader{
+    width: 50%;
+    height: 10%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+
+.htmlIcon {
+   height: 50%;
+   width: 10%;
+   font-size:27px;
+   margin: 20px 0px 0px 18px;
+}
+
+.profile {
+    height: 80%;
+   width: 85%;
+   align-self: start;
+   padding: 0px 0px 0px 5px;
+   font-size:0.8em;
+}
+
+.location{
+    position:relative;
+    margin:20px 0px 0px -42px ;
+    display:grid;
+    font-size:0.85em;
+}
+
+img{
+width:100%;
+height: 350px;
+}
+
+.menuIcon{
+    position:relative;
+    font-size:30px;
+    margin: 12px 10px 0px 290px  
+}
+
+span.likeIcon {
+    position:relative;
+    margin: 8px 0px 10px 12px;
+    font-size:30px;
+    top:15%;
+}
+span.commentIcon {
+    position:relative;
+    margin: 8px 0px 10px 0px;
+    font-size:30px;
+    top:15%;
+}
+span.shareIcon {
+    position:relative;
+    margin: 8px 0px 10px 0px;
+    font-size:30px;
+    top:15%;
+}
+
+.bookmarkIcon{
+    position:relative;
+    font-size:30px;
+    float:right;
+    top:15%;
+    right:4%;
+}
+
+.postBody{
+    width: 100%;
+    padding: 12px;
+    margin:10px 0px 10px 0px;
+    font-size: 0.9em;
+}
